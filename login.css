@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body { 
+    height: 100%;
+    background: linear-gradient(to bottom right, #00292D 50% , #01212D 50%);
+    
+    
+}
+.container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    place-content: center;
+}
+
+.container p {
+    justify-self: center;
+    font-weight: bold;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 75px;
+}
+
+.container form{
+    display: grid;
+}
+
+
+.container form button {
+    width: 265px;
+    height: 61px;
+    border-radius: 20px;
+    margin-top: 75px;
+    justify-self: center;
+    color: #01212C;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.div_us {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.div_us label {
+    display: grid;
+    place-content: center ;
+    width: 61px;
+    height: 66px;
+    border-radius: 100%;
+    border: 1px solid black;
+    background-color: white;
+    z-index: 1;
+}
+
+.div_us label img {
+    width: 37px;
+    height: 37px;
+    
+}
+
+.div_us input {
+    width: 257px;
+    height: 47px;
+    border-radius: 10px;
+    margin-left: -15px;
+    padding: 20px;
+    background: #476468;
+    color: #072E31;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.div_us input::placeholder {
+    color: #072E31;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.div_pas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.div_pas input {
+    width: 257px;
+    height: 47px;
+    border-radius: 10px;
+    margin-right: -15px;
+    padding: 10px;
+    background: #476468;
+    color: #072E31;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.div_pas input::placeholder {
+    color: #072E31;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.div_pas label {
+    display: grid;
+    place-content: center;
+    width: 61px;
+    height: 66px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background: white;
+}
+
+.div_pas label img {
+    width: 37px;
+    height: 36px;
+    
+}
